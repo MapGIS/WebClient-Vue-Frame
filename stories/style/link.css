@@ -1,0 +1,59 @@
+.mapgis-link-test {
+  height: 90vh;
+  width: 100%;
+}
+.scene-item {
+  position: absolute;
+  height: 50%;
+  width: 50%;
+}
+.top-left {
+  top: 0px;
+  left: 0px;
+}
+.top-right {
+  top: 0px;
+  right: 0px;
+}
+.bottom-left {
+  bottom: 0px;
+  left: 0px;
+}
+.bottom-right {
+  bottom: 0px;
+  right: 0px;
+}
+.control {
+  position: absolute;
+  z-index: 9999;
+  background: #cc5a5a;
+  top: 47.5%;
+  left: 47.5%;
+  width: 5vw;
+  height: 5vh;
+  border-radius: 12px;
+}
+.control-2d-3d {
+  position: absolute;
+  z-index: 9999;
+  background: #cc5a5a;
+  top: 47.5%;
+  left: 47.5%;
+  width: 5vw;
+  height: 5vh;
+  border-radius: 12px;
+}
+.link-active {
+  background: #41b883;
+}
+
+.mapbox-item {
+  position: absolute;
+  height: 100vh;
+  width: 50%;
+}
+.cesium-item {
+  position: absolute;
+  height: 100vh;
+  width: 50%;
+}

@@ -1,0 +1,72 @@
+{
+  "name": "@mapgis/webclient-vue",
+  "version": "16.2.0",
+  "private": true,
+  "scripts": {
+    "build-all": "cd ../ && npm run build-storybook &&  cd cesium && npm run docs:build && npm run build && cd ../leaflet && npm run docs:build && npm run build",
+    "build-cesium-all": "cd cesium && npm run docs:build",
+    "build-cesium-docs": "cd cesium && npm run docs:build",
+    "build-cesium-umd": "cd cesium && npm run build",
+    "build-leaflet-all": "cd leaflet && npm run docs:build",
+    "build-leaflet-docs": "cd leaflet && npm run docs:build",
+    "build-leaflet-umd": "cd leaflet && npm run build",
+    "build-storybook": "build-storybook -s ./stories/public -o storybook",
+    "storybook": "start-storybook -s ./stories/public -p 8895"
+  },
+  "dependencies": {
+    "@mapgis/webclient-es6-service": "^16.3.1",
+    "@mapgis/webclient-vue-cesium": "^16.2.111",
+    "@mapgis/webclient-vue-ui": "^16.2.111",
+    "@storybook/addon-knobs": "^6.3.0",
+    "@storybook/preset-scss": "^1.0.3",
+    "core-js": "^3.6.5",
+    "echarts": "^5.0.2",
+    "file-saver": "^2.0.5",
+    "eslint-plugin-prettier": "^3.3.1",
+    "http-proxy-middleware": "^1.0.6",
+    "less": "3.12.2",
+    "less-loader": "7.0.2",
+    "sass": "^1.35.1",
+    "sass-loader": "10.1.1",
+    "vue": "2.6.14",
+    "vue-i18n": "^8.22.4",
+    "vue-loader": "^15.9.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/eslint-parser": "^7.12.1",
+    "@storybook/addon-a11y": "6.3.7",
+    "@storybook/addon-actions": "6.3.7",
+    "@storybook/addon-docs": "6.3.7",
+    "@storybook/addon-essentials": "6.3.7",
+    "@storybook/addon-links": "6.3.7",
+    "@storybook/addon-storysource": "6.3.7",
+    "@storybook/vue": "6.3.7",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.15.0",
+    "eslint-plugin-storybook": "^0.5.6",
+    "eslint-plugin-vue": "^7.2.0",
+    "vue-template-compiler": "2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
