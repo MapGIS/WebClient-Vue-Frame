@@ -96,4 +96,10 @@ Webclient-vue 脚手架，用于 Cesium、Leaflet 的扩展组件开发。
 
 ### 4、新建 storybook 示例调试
 
-详见[create_storybook.md](./create_storybook.md)
+1. 安装 storybook 依赖
+   ```sh
+   cd /path/to/WebClient-Vue-Frame
+   yarn
+   ```
+2. 新增 storybook 示例
+   详见[create_storybook.md](./create_storybook.md)
