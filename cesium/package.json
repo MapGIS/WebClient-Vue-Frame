@@ -23,7 +23,7 @@
     ]
   },
   "dependencies": {
-    "@mapgis/webclient-vue-ui": "^16.0.0",
+    "@mapgis/webclient-vue-ui": "^16.2.0",
     "@vuepress/plugin-active-header-links": "^1.7.1",
     "@vuepress/plugin-nprogress": "^1.7.1",
     "compression-webpack-plugin": "^6.1.1",

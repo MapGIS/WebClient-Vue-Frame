@@ -21,7 +21,7 @@ Webclient-vue 脚手架，用于 Cesium、Leaflet 的扩展组件开发。
 │          ├─UI
 │          │  └─Controls
 │          │      └─OutputImage
-│          └─Util                         
+│          └─Util
 ├─leaflet                        -- Leaflet组件库的代码结构
 │  ├─docs                        -- Leaflet组件库的Vuepress文档说明
 │  ├─node_modules
@@ -32,7 +32,7 @@ Webclient-vue 脚手架，用于 Cesium、Leaflet 的扩展组件开发。
     ├─data                       -- storybook示例数据
     ├─mapgis2d                   -- Leaflet(二维)组件示例
     ├─mapgis3d                   -- Cesium(三维)组件示例
-    ├─public                     
+    ├─public
     │  └─cesium                  -- Cesium js库
     └─style
 ```
@@ -75,7 +75,7 @@ Webclient-vue 脚手架，用于 Cesium、Leaflet 的扩展组件开发。
 
 1. 进入对应的目录
    ```sh
-   cd /path/to/WebClient-Vue/cesium
+   cd /path/to/WebClient-Vue-Frame/cesium
    ```
 2. 执行本地链接操作
 
@@ -89,7 +89,7 @@ Webclient-vue 脚手架，用于 Cesium、Leaflet 的扩展组件开发。
    ```sh
    cd /path/to/MyProject
    ```
-4. 指定连接的 WebClient-Vue 库
+4. 指定连接的 WebClient-Vue-Frame 库
    ```sh
    npm link @mapgis/webclient-vue-cesium-example
    ```

@@ -14,9 +14,9 @@
     "storybook": "start-storybook -s ./stories/public -p 8895"
   },
   "dependencies": {
-    "@mapgis/webclient-es6-service": "^16.3.1",
-    "@mapgis/webclient-vue-cesium": "^16.2.111",
-    "@mapgis/webclient-vue-ui": "^16.2.111",
+    "@mapgis/webclient-es6-service": "^16.2.0",
+    "@mapgis/webclient-vue-cesium": "^16.2.0",
+    "@mapgis/webclient-vue-ui": "^16.2.0",
     "@storybook/addon-knobs": "^6.3.0",
     "@storybook/preset-scss": "^1.0.3",
     "core-js": "^3.6.5",

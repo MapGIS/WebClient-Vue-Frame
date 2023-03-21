@@ -23,7 +23,7 @@
     ]
   },
   "dependencies": {
-    "@mapgis/webclient-vue-ui": "^16.0.0",
+    "@mapgis/webclient-vue-ui": "^16.2.0",
     "leaflet": "^1.8.0",
     "vue-runtime-helpers": "^1.1.2",
     "vuepress": "^1.9.7"
