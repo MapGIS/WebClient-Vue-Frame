@@ -93,3 +93,7 @@ Webclient-vue 脚手架，用于 Cesium、Leaflet 的扩展组件开发。
    ```sh
    npm link @mapgis/webclient-vue-cesium-example
    ```
+
+### 4、新建 storybook 示例调试
+
+详见[create_storybook.md](./create_storybook.md)
