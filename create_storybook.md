@@ -15,14 +15,23 @@
 
 ![img_2.png](./images/component3.png)
 
-## 三、启动 storybook
+## 三、配置storybook
+
+1. 将 CesiumJS 库拷到 stories/public 下。
+![img.png](./images/storybook1.png)
+
+2. 在.storybook/preview.js 配置window.webclient、window.VueCesiumLibPath、window.VueCesiumPluginPath参数。
+
+   ![img.png](./images/storybook2.png)
+
+## 四、启动 storybook
 
 ```sh
 cd /path/to/WebClient-Vue-Frame
 yarn storybook
 ```
 
-## 四、stories 的结构解析
+## 五、stories 的结构解析
 
 一个 storybook 示例包含如下三部分：标题、示例代码、接口展示
 
@@ -265,7 +274,7 @@ control 的可选值：
 
 ![img_8.png](./images/img_2.png)
 
-## 五、完整 storybook 示例
+## 六、完整 storybook 示例
 
 ```vue
 import "../style/card.css";

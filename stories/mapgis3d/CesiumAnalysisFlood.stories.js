@@ -138,7 +138,6 @@ const Template = (args, { argTypes }) => ({
           z: 3232882.3357299212,
         },
       });
-      debugger;
       viewer.scene.globe.depthTestAgainstTerrain = true;
       viewer.scene.farToNearRatio = 1000;
       viewer.scene.logarithmicDepthBuffer = true;

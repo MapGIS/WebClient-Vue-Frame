@@ -103,3 +103,11 @@ Webclient-vue 脚手架，用于 Cesium、Leaflet 的扩展组件开发。
    ```
 2. 新增 storybook 示例
    详见[create_storybook.md](./create_storybook.md)
+
+### 5、常见问题
+
+1. yarn过程中出现lru-cache@8.0.4: The engine "node" is incompatible with this module. Expected version...
+
+   ```sh
+   yarn config set ignore-engines true
+   ```
