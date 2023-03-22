@@ -39,7 +39,7 @@ Webclient-vue 脚手架，用于 Cesium、Leaflet 的扩展组件开发。
 
 ### 2、新建组件
 
-以在 Webclient-Vue-Cesium-Example 中新建 洪水淹没 组件为例，展示如何新建组件。
+以在 Webclient-Vue-Cesium-Example 中新建`洪水淹没`组件为例，展示如何新建组件。
 
 1. 组件内部使用独立的 VUE 注入机制[provide/inject](https://vuejs.org/v2/api/#provide-inject)
 
@@ -49,13 +49,11 @@ Webclient-vue 脚手架，用于 Cesium、Leaflet 的扩展组件开发。
 
    当`mapgis-web-scene`组件创建的时候，必须等到地图初始化加载完毕后，然后才会渲染子组件 同时通过 provide 的方式提供下面三个对象:
 
-   ::: tip
-
-   1. `Cesium` @mapgis/cesium
-   2. `vueCesium` cesium 对象的存储管理器
-   3. `viewer` mapgis Cesium.viewer 对象
-
-​       :::
+   > a. `Cesium` @mapgis/cesium
+   >
+   > b. `vueCesium` cesium 对象的存储管理器
+   >
+   > c. `viewer` mapgis Cesium.viewer 对象
 
 只要是注入了上面的属性,你就可以添加地图要素或者执行对应的地图方法。 注入方法如下：
 
@@ -65,9 +63,9 @@ inject: ["Cesium", "vueCesium","viewer"]
 
 封装插件的核心思想是： 保持 Vue 本身的声明规范，这样做可以容易封装额外的控制组件和图层组件。同时也容易封装第三方插件，适应不同的业务需求。
 
-2. 新建 洪水淹没 组件。
+2. 新建`洪水淹没`组件。
 
-   a. 在cesium/src/components中新建Flood.vue文件，并且在Flood.vue文件注入["Cesium", "vueCesium","viewer"]。
+   a. 在cesium/src/components中新建Flood.vue文件，并且在Flood.vue文件注入`Cesium`, `vueCesium`,`viewer`。
 
    ![components6.png](./docs/images/component6.png)
 
@@ -154,6 +152,8 @@ inject: ["Cesium", "vueCesium","viewer"]
    ```sh
    npm link @mapgis/webclient-vue-cesium-example
    ```
+
+![components8.png](./docs/images/component8.png)
 
 **如何在一张图微件库中使用新建组件，并加到一张图中?详见[add-component-to-mapgis-pan-spatial-map.md](./docs/add-component-to-mapgis-pan-spatial-map.md)**
 

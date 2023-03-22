@@ -5,8 +5,8 @@
 1. 下载mapgis-pan-spatial-map-widgets-frame微件库代码, 并切到mapgis-pan-spatial-map-widgets-frame目录下，安装相应的依赖。
 
    ```js
-   yarn  #安装依赖
-   yarn link @mapgis/webclient-vue-cesium-example #link新建组件包
+   yarn  // 安装依赖
+   yarn link @mapgis/webclient-vue-cesium-example // link新建组件包
    ```
 
    > 如果新建组件包已传入npm，则可以直接在mapgis-pan-spatial-map-widgets-frame/package.json的dependencies对象中引入@mapgis/webclient-vue-cesium-example，link这步就可以省掉了。

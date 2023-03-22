@@ -18,8 +18,7 @@
 ## 三、配置storybook
 
 1. 将 CesiumJS 库拷到 stories/public 下。
-
-  ![img.png](./images/storybook1.png)
+2.   ![img.png](./images/storybook1.png)
 
 2. 在.storybook/preview.js 配置window.webclient、window.VueCesiumLibPath、window.VueCesiumPluginPath参数。
 
