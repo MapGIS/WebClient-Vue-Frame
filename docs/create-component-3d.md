@@ -46,6 +46,6 @@ inject: ["Cesium", "vueCesium", "viewer"];
 
    ![API-1-1.png](./images/API-1-1.png)
 
-   3. 在storybook示例中可预览新增的API文档。
+3. 在storybook示例中可预览新增的API文档。
 
-      ![API-2-1.png](./images/API-2-1.png)
+   ![API-2-1.png](./images/API-2-1.png)

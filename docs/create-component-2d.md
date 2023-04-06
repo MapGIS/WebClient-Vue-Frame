@@ -45,8 +45,8 @@ inject: ["mapbox", "map"];
 
    ![API-1-2.png](./images/API-1-2.png)
 
-   3. 在storybook示例中可预览新增的API文档。
+3.  在storybook示例中可预览新增的API文档。
 
-      ![API-2-2.png](./images/API-2-2.png)
+   ![API-2-2.png](./images/API-2-2.png)
 
    
