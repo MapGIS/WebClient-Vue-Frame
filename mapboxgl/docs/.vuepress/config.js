@@ -11,8 +11,8 @@ module.exports = {
     "/": {
       lang: "zh-CN",
       title: "中地数码",
-      description: "@mapgis/webclient-vue-cesium-example"
-    }
+      description: "@mapgis/webclient-vue-cesium-example",
+    },
   },
   themeConfig: {
     locales: {
@@ -27,25 +27,25 @@ module.exports = {
         serviceWorker: {
           updatePopup: {
             message: "发现新内容可用.",
-            buttonText: "刷新"
-          }
+            buttonText: "刷新",
+          },
         },
         // 当前 locale 的 algolia docsearch 选项
         algolia: {},
         nav: [
           {
             text: "向导",
-            link: "/guide/"
+            link: "/guide/",
           },
           {
             text: "API",
-            link: "/api/"
+            link: "/api/",
           },
           {
             text: "WebClient",
-            link: "http://develop.smaryun.com"
+            link: "http://develop.smaryun.com",
           },
-          { text: "开源", link: "https://github.com/MapGIS/WebClient-Vue" }
+          { text: "开源", link: "https://github.com/MapGIS/WebClient-Vue" },
         ],
         sidebar: [
           {
@@ -54,75 +54,66 @@ module.exports = {
             children: [
               ["/guide/", "安装"],
               ["/guide/quickStart.md", "快速上手"],
-              ["/guide/introduction.md", "模块说明"]
-            ]
+              ["/guide/introduction.md", "模块说明"],
+            ],
           },
           {
             title: "组件",
             collapsable: false,
             children: [
               {
-                title: "场景",
-                collapsable: false
+                title: "地图",
+                collapsable: false,
               },
-              ["/api/", "地图场景"],
+              ["/api/", "地图"],
               {
-                title: "场景子组件",
-                collapsable: false
+                title: "控件",
+                collapsable: false,
               },
-              ["/api/ui/outputimage.md", "截图"],
-              {
-                title: "空间分析",
-                collapsable: false
-              },
-              ["/api/analysis/flood.md", "洪水淹没分析"]
-            ]
-          }
-        ]
-      }
-    }
+              ["/api/control/scalecontrol.md", "比例尺"],
+            ],
+          },
+        ],
+      },
+    },
   },
   serviceWorker: true,
   head: [
     [
       "script",
       {
-        src:
-          "https://cdn.jsdelivr.net/npm/react@16.6.3/umd/react.production.min.js"
-      }
+        src: "https://cdn.jsdelivr.net/npm/react@16.6.3/umd/react.production.min.js",
+      },
     ],
     [
       "script",
       {
-        src:
-          "https://cdn.jsdelivr.net/npm/react-dom@16.6.3/umd/react-dom.production.min.js"
-      }
+        src: "https://cdn.jsdelivr.net/npm/react-dom@16.6.3/umd/react-dom.production.min.js",
+      },
     ],
     ["script", { src: "https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js" }],
     [
       "script",
-      { src: "https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js" }
+      { src: "https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js" },
     ],
     [
       "script",
-      { src: "https://cdn.jsdelivr.net/npm/numerify/lib/index.umd.min.js" }
+      { src: "https://cdn.jsdelivr.net/npm/numerify/lib/index.umd.min.js" },
     ],
     [
       "link",
       {
-        href:
-          "http://develop.smaryun.com/static/libs/cdn/zondyclient/npm/webclient-vue-cesium.css",
+        href: "http://develop.smaryun.com/static/libs/cdn/zondyclient/npm/webclient-vue-cesium.css",
         rel: "stylesheet",
-        type: "text/css"
-      }
+        type: "text/css",
+      },
     ],
     [
       "script",
       {
-        src:
-          "http://develop.smaryun.com/static/libs/cdn/zondyclient/npm/webclient-vue-cesium.umd.js"
-      }
-    ]
+        src: "http://develop.smaryun.com/static/libs/cdn/zondyclient/npm/webclient-vue-cesium.umd.js",
+      },
+    ],
   ],
   plugins: [
     [
@@ -133,9 +124,9 @@ module.exports = {
           cssLibs: [],
           jsfiddle: true, // 是否显示 jsfiddle 链接
           codepen: true, // 是否显示 codepen 链接
-          horizontal: false // 是否展示为横向样式
-        }
-      }
-    ]
-  ]
+          horizontal: false, // 是否展示为横向样式
+        },
+      },
+    ],
+  ],
 };

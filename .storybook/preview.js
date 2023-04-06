@@ -3,14 +3,20 @@ import axios from "axios";
 
 import MapgisCesiumExampleComponents from "../cesium/src/main";
 
+import MapgisMapboxglExampleComponents from "../mapboxgl/src/main";
+
 import "@mapgis/webclient-vue-ui/dist-libs/webclient-vue-ui.css";
 import MapgisUIComponents from "@mapgis/webclient-vue-ui";
 
 import "@mapgis/webclient-vue-cesium/dist-libs/webclient-vue-cesium.css";
 import MapgisCesiumComponents from "@mapgis/webclient-vue-cesium";
 
+import "@mapgis/webclient-vue-mapboxgl/dist-libs/webclient-vue-mapboxgl.css";
+import MapgisMapboxglComponents from "@mapgis/webclient-vue-mapboxgl";
+
 Vue.use(MapgisUIComponents, {});
 Vue.use(MapgisCesiumComponents, {});
+Vue.use(MapgisMapboxglComponents, {});
 Vue.use(MapgisCesiumExampleComponents, {});
 
 window.webclient = {
