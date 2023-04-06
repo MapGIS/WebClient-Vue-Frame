@@ -29,24 +29,24 @@ inject: ["mapbox", "map"];
 
    a. 在 mapboxgl/src/components 中新建 ScaleControl.vue 文件，并且在 ScaleControl.vue 文件注入`mapbox`, `map`。
 
-   ![components6-2d.png](D:\3onemapantd\frame\webclient-vue-frame\docs\images\component6-2d.png)
+   ![components6-2d.png](./images/component6-2d.png)
 
    b. 在 mapboxgl/src/component.js 中导出组件。编译后，在其他项目中 use 后，即可直接使用新建的组件。
 
-   ![components7-2.png](D:\3onemapantd\frame\webclient-vue-frame\docs\images\component7-2.png)
+   ![components7-2.png](./images/component7-2.png)
 
 #### 编写对应的API文档
 
 1. 在mapboxgl/docs/api中新建control文件夹，在新建文件夹里新建scalecontrol.md。API文档主要包含属性，方法，事件，和示例。
 
-   ![API-2.png](D:\3onemapantd\frame\webclient-vue-frame\docs\images\API-2.png)
+   ![API-2.png](./images/API-2.png)
 
 2. 在mapboxgl/docs/.vuepress/config.js中，将新增的scalecontrol.md引入。
 
-   ![API-1-2.png](D:\3onemapantd\frame\webclient-vue-frame\docs\images\API-1-2.png)
+   ![API-1-2.png](./images/API-1-2.png)
 
    3. 在storybook示例中可预览新增的API文档。
 
-      ![API-2-2.png](D:\3onemapantd\frame\webclient-vue-frame\docs\images\API-2-2.png)
+      ![API-2-2.png](./images/API-2-2.png)
 
    
