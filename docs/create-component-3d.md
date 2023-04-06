@@ -37,3 +37,15 @@ inject: ["Cesium", "vueCesium", "viewer"];
    ![components7.png](D:\3onemapantd\frame\webclient-vue-frame\docs\images\component7.png)
 
 #### 编写对应的API文档
+
+1. 在cesium/docs/api中新建analysis文件夹，在新建文件夹里新建flood.md。API文档主要包含属性，方法，事件，和示例。
+
+   ![API-1.png](D:\3onemapantd\frame\webclient-vue-frame\docs\images\API-1.png)
+
+2. 在cesium/docs/.vuepress/config.js中，将新增的scalecontrol.md引入。
+
+   ![API-1-1.png](D:\3onemapantd\frame\webclient-vue-frame\docs\images\API-1-1.png)
+
+   3. 在storybook示例中可预览新增的API文档。
+
+      ![API-2-1.png](D:\3onemapantd\frame\webclient-vue-frame\docs\images\API-2-1.png)
