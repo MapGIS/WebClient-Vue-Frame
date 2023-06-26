@@ -11,7 +11,7 @@
 
    > 如果新建组件包已传入npm，则可以直接在mapgis-pan-spatial-map-widgets-frame/package.json的dependencies对象中引入@mapgis/webclient-vue-cesium-example，link这步就可以省掉了。
 
-2. 在mapgis-pan-spatial-map-widgets-frame/src/index.ts中引入@mapgis/webclient-vue-cesium-example，并use。
+2. 在mapgis-pan-spatial-map-widgets-frame/src/index.js中引入@mapgis/webclient-vue-cesium-example，并use。
 
    ![component9.png](./images/component9.png)
 
@@ -29,15 +29,15 @@
 
 ## 2、在一张图中添加新建微件
 
-1. 下载mapgis-pan-spatial-map-pro-antd，在mapgis-pan-spatial-map-pro-antd/packages/src/main.js中，引入@mapgis/mapgis-pan-spatial-map-widgets-frame，并use。
+1. 下载mapgis-pan-spatial-map-app，在mapgis-pan-spatial-map-app/src/core/use.js 中引入@mapgis/mapgis-pan-spatial-map-widgets-frame，并use。
 
    ![component13.png](./images/component13.png)
 
-2. 在一张图数据配置中，apps/widgets中新增flood文件夹，配置manifest.json和config.json信息。
+2. 在 mapgis-pan-spatial-map-mock-server/mock/data/widgets 里增加 flood文件夹，配置manifest.json和config.json信息。
 
    ![component14.png](./images/component14.png)
 
-3. 在app.json或者管理平台中，将 洪水淹没 微件配置到一张图中。
+3. 在 mapgis-pan-spatial-map-mock-server/mock/data/app.json 中或者管理平台中，将 洪水淹没 微件配置到一张图中。
 
    ![component15.png](./images/component15.png)
 
