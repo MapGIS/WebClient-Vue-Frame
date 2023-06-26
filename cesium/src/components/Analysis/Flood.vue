@@ -57,8 +57,8 @@ import {
   colorToCesiumColor,
   isDepthTestAgainstTerrainEnable,
   setDepthTestAgainstTerrainEnable
-} from "../util/cesium-util";
-import { getPolygonSamplePoints } from "../util/common-util";
+} from "../Util/cesium-util";
+import { getPolygonSamplePoints } from "../Util/common-util";
 
 export default {
   name: "mapgis-3d-analysis-flood",
