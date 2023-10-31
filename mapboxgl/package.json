@@ -1,6 +1,6 @@
 {
   "name": "@mapgis/webclient-vue-mapboxgl-example",
-  "version": "16.2.0",
+  "version": "16.6.0",
   "description": "中地数码webclient-vue-mapboxgl-example",
   "main": "dist-libs/webclient-vue-mapboxgl-example.umd.min.js",
   "module1": "src/main.js",
@@ -23,8 +23,8 @@
     ]
   },
   "dependencies": {
-    "@mapgis/mapbox-gl": "^16.0.0",
-    "@mapgis/webclient-vue-ui": "^16.0.0",
+    "@mapgis/mapbox-gl": "^16.6.0",
+    "@mapgis/webclient-vue-ui": "^16.6.0",
     "@turf/turf": "^6.5.0",
     "map-promisified": "^0.4.0",
     "mapbox-gl": "^2.7.0",
